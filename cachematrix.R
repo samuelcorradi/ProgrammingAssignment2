@@ -37,7 +37,7 @@ cacheSolve <- function(x, ...) {
 }
 
 m <- matrix(c(1,2,4,5), 2, 2)
-cachematrix = makeCacheMatrix(m);
+cachematrix <- makeCacheMatrix(m);
 
 cacheSolve(cachematrix) # it's not from cache
 
